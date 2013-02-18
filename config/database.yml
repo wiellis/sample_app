@@ -1,27 +1,24 @@
 development:
   adapter: postgresql
   host: localhost
-  username: user
   database: app-dev
   pool: 5
-  username: wellis
-  password: NinjaDopingIgnoramusGestapo
+  username: unprivdbuser
+  password: pianounicyclecardboardgymnasium
 
 test:
   adapter: postgresql
   host: localhost
-  username: user
   database: app-test
   pool: 5
-  username: wellis
-  password: NinjaDopingIgnoramusGestapo
+  username: unprivdbuser
+  password: pianounicyclecardboardgymnasium
 
 production:
   adapter: postgresql 
   host: localhost 
-  username: user 
   database: app-prod
   pool: 5
-  username: wellis
-  password: NinjaDopingIgnoramusGestapo 
+  username: unprivdbuser
+  password: pianounicyclecardboardgymnasium
 
